@@ -1,15 +1,18 @@
 module.exports = {
     extends: "builds/default.js",
     meta: {
-        stable_name: "ender_3_4.2.2-{{marlin_version}}-base-{{uid}}",
-        nightly_name: "ender_3_4.2.2-{{current_date}}-base-{{uid}}"
+        stable_name: "ender_3_skr_e3v3-{{marlin_version}}-base-{{uid}}",
+        nightly_name: "ender_3_skr_e3v3-{{current_date}}-base-{{uid}}"
     },
     configuration: {
         enable: [
-            ["STRING_CONFIG_H_AUTHOR", "(Dust, valerionew, Ender-3, zisismaras)"],
+            ["STRING_CONFIG_H_AUTHOR", "(Dust, valerionew, Ender-3, zisismaras, leonardcoutinho)"],
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
-            "BED_TRAMMING_INCLUDE_CENTER"
+            "BED_TRAMMING_INCLUDE_CENTER",
+            ["X_BED_SIZE", 230], //adjust my bedsize to my extruder not go outside
+            ["Y_BED_SIZE", 230],
+            ["Y_MIN_POS", -9] //set offset to my extruder can reach all of bed and not go outside
         ]
     },
     configuration_adv: {
