@@ -12,7 +12,7 @@ module.exports = {
             "BED_TRAMMING_INCLUDE_CENTER",
             ["X_BED_SIZE", 230], //adjust my bedsize to my extruder not go outside
             ["Y_BED_SIZE", 230],
-            ["Y_MIN_POS", -9] //set offset to my extruder can reach all of bed and not go outside
+            ["Y_MIN_POS", -4] //set offset to my extruder can reach all of bed and not go outside
         ]
     },
     configuration_adv: {
