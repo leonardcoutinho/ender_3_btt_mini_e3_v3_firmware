@@ -6,6 +6,7 @@ module.exports = {
     },
     configuration: {
         enable: [
+            ["MOTHERBOARD", "BOARD_BTT_SKR_MINI_E3_V3_0"],
             ["STRING_CONFIG_H_AUTHOR", "(Ender-3, Btt, leonardcoutinho)"],
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
