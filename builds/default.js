@@ -7,7 +7,7 @@ module.exports = {
     },
     based_on: {
         repo: "https://github.com/MarlinFirmware/Configurations/",
-        path: "/config/examples/Creality/Ender-3/'BigTreeTech SKR Mini E3 3.0'/",
+        path: "/config/examples/Creality/Ender-3/BigTreeTech%20SKR%20Mini%20E3%203.0",
         stable_branch: "release-{{marlin_version}}",
         nightly_branch: "bugfix-2.1.x"
     }
