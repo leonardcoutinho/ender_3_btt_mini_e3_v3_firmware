@@ -1,7 +1,5 @@
 module.exports = {
     board_env: "STM32G0B1RE_btt",
-    platform: "ststm32",
-    board: "STM32G0B1RE_btt",
     min_version: "2.1.0",
     meta: {
         stable_name: "ender_3_skr_e3v3-{{marlin_version}}-default-{{uid}}",
